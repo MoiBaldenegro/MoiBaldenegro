@@ -1,4 +1,4 @@
-# 💫 About Me:... https://www.youtube.com/watch?v=Z6G7mCAeXoE
+# 💫 About Me:...
 🔭Soy Moisés Baldenegro Desarrollador Full Stack React<br>👯 Entusiasta de la IA"<br>🤝 Actualmente estudio Back-end JAVA - SPRING<br>En mi perfil de GitHub encontrarás una variedad de proyectos que reflejan<br>mis intereses y habilidades como desarrollador. Siéntete libre de explorar mis<br>repositorios y no dudes en contactarme si tienes alguna pregunta o si estás interesado<br>en colaborar en algún proyecto.<br><br>🔭 I'm Moisés Baldenegro, a Full Stack React Developer.<br>👯 AI enthusiast and.<br>🤝 Currently studying Back-end JAVA - SPRING.<br>In my GitHub profile you'll find a variety of projects that reflect my interests and skills as a developer.<br>Feel free to explore my repositories and don't hesitate to contact me if you have any questions or if<br>you're interested in collaborating on a project.
 
 
