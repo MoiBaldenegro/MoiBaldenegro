@@ -1,4 +1,4 @@
-# 💫 About Me  https://www.youtube.com/watch?v=Jikp-u55uyg .
+# 💫 About Me  https://www.youtube.com/watch?v=Jikp-u55uyg ...
 
 
 ## 🌐 Socials: 
