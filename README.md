@@ -13,7 +13,7 @@
 
 ## Current Projects
 
-- 🐶 **Cinnamon](https://cinnamon.ai)** - Un runtime de alto rendimiento para JavaScript y TypeScript construido sobre Rust.
+- 🐶 [**Cinnamon](https://cinnamon.ai)** - Un runtime de alto rendimiento para JavaScript y TypeScript construido sobre Rust.
 
 
 
