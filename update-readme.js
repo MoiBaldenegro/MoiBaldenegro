@@ -15,7 +15,7 @@ function parseISO8601Duration(duration) {
 }
 
 async function getVideos() {
-  // 1. Buscamos los videos recientes del canal
+  // 1. Jalamos los últimos movimientos del canal
   const searchUrl = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${CHANNEL_ID}&part=snippet,id&order=date&maxResults=25&type=video`;
   
   const searchRes = await fetch(searchUrl);
@@ -23,27 +23,26 @@ async function getVideos() {
   
   if (!searchData.items || searchData.items.length === 0) return '';
 
-  // Sacamos los IDs para consultar la duración de cada uno
   const videoIds = searchData.items.map(v => v.id.videoId).join(',');
 
-  // 2. Pedimos los detalles (contentDetails trae la duración y snippet trae el título)
+  // 2. Pedimos los detalles para saber cuánto duran
   const detailsUrl = `https://www.googleapis.com/youtube/v3/videos?key=${API_KEY}&id=${videoIds}&part=snippet,contentDetails`;
   const detailsRes = await fetch(detailsUrl);
   const detailsData = await detailsRes.json();
 
-  // 3. FILTRO: Solo nos quedamos con los que duren 60 segundos o menos (SHORTS)
-  const shortVideos = detailsData.items.filter(video => {
+  // 3. FILTRO: Solo dejamos pasar videos de MÁS de un minuto (adiós Shorts)
+  const longVideos = detailsData.items.filter(video => {
     const totalSeconds = parseISO8601Duration(video.contentDetails.duration);
-    return totalSeconds <= 125; 
+    return totalSeconds > 60; 
   });
 
-  // 4. Mapeamos los resultados para el README
-  // Nota: Usamos la URL de /shorts/ para que el click sea directo al formato vertical
-  return shortVideos.slice(0, MAX_VIDEOS).map(video => {
+  // 4. Armamos el HTML para el README
+  return longVideos.slice(0, MAX_VIDEOS).map(video => {
     const id = video.id;
+    // Escapamos comillas del título para que no rompan el HTML del alt
     const title = video.snippet.title.replace(/"/g, '&quot;');
     
-    return `<a href="https://www.youtube.com/shorts/${id}" target="_blank"><img width="31%" src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="${title}" /></a>`;
+    return `<a href="https://youtu.be/${id}" target="_blank"><img width="31%" src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="${title}" /></a>`;
   }).join(' ');
 }
 
