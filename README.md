@@ -29,7 +29,7 @@
 
 ## Latest videos
 
-<a href="https://www.youtube.com/shorts/2-OhDiVDlKc" target="_blank"><img width="31%" src="https://img.youtube.com/vi/2-OhDiVDlKc/mqdefault.jpg" alt="¡El truco de Rust para convertir Strings a números con .parse() revelado!" /></a> <a href="https://www.youtube.com/shorts/Thbkw3aNCS0" target="_blank"><img width="31%" src="https://img.youtube.com/vi/Thbkw3aNCS0/mqdefault.jpg" alt="Rust: ¡Tu código ahora escucha al usuario! 🦀" /></a> <a href="https://www.youtube.com/shorts/brqXuol9Px4" target="_blank"><img width="31%" src="https://img.youtube.com/vi/brqXuol9Px4/mqdefault.jpg" alt="¡El DÍA que un código en Rust se estrelló! 💥 La verdad sobre punteros y condiciones de carrera." /></a>
+<a href="https://youtu.be/2-OhDiVDlKc" target="_blank"><img width="31%" src="https://img.youtube.com/vi/2-OhDiVDlKc/mqdefault.jpg" alt="¡El truco de Rust para convertir Strings a números con .parse() revelado!" /></a> <a href="https://youtu.be/Thbkw3aNCS0" target="_blank"><img width="31%" src="https://img.youtube.com/vi/Thbkw3aNCS0/mqdefault.jpg" alt="Rust: ¡Tu código ahora escucha al usuario! 🦀" /></a> <a href="https://youtu.be/0oDS-zmCFrA" target="_blank"><img width="31%" src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" /></a>
 
 ## Connect
 
