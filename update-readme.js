@@ -34,7 +34,7 @@ async function getVideos() {
   // 3. FILTRO: Solo nos quedamos con los que duren 60 segundos o menos (SHORTS)
   const shortVideos = detailsData.items.filter(video => {
     const totalSeconds = parseISO8601Duration(video.contentDetails.duration);
-    return totalSeconds <= 60; 
+    return totalSeconds <= 125; 
   });
 
   // 4. Mapeamos los resultados para el README
