@@ -33,7 +33,7 @@ async function getVideos() {
   // 3. FILTRO: Solo dejamos pasar videos de MÁS de un minuto (adiós Shorts)
   const longVideos = detailsData.items.filter(video => {
     const totalSeconds = parseISO8601Duration(video.contentDetails.duration);
-    return totalSeconds > 60; 
+    return totalSeconds > 125; 
   });
 
   // 4. Armamos el HTML para el README
