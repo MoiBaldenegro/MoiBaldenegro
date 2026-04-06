@@ -1,0 +1,32 @@
+name: Update YouTube Videos
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Cada 6 horas
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Actualizar README
+        run: node update-readme.js
+        env:
+          # Estas las sacamos de GitHub Settings
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
+          MAX_VIDEOS: ${{ vars.MAX_VIDEOS }}
+
+      - name: Push de cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "bot: update youtube videos" || exit 0
+          git push
