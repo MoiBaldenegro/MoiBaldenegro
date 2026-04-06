@@ -29,7 +29,7 @@
 
 ## Latest videos
 
-<a href="https://www.youtube.com/shorts/brqXuol9Px4" target="_blank"><img width="31%" src="https://img.youtube.com/vi/brqXuol9Px4/mqdefault.jpg" alt="¡El DÍA que un código en Rust se estrelló! 💥 La verdad sobre punteros y condiciones de carrera." /></a> <a href="https://www.youtube.com/shorts/UK_WQW6U7qU" target="_blank"><img width="31%" src="https://img.youtube.com/vi/UK_WQW6U7qU/mqdefault.jpg" alt="¡RUST VS C: La Sorpresa de las 159! La vulnerabilidad oculta que nadie esperaba." /></a> <a href="https://www.youtube.com/shorts/3grRsToHrUc" target="_blank"><img width="31%" src="https://img.youtube.com/vi/3grRsToHrUc/mqdefault.jpg" alt="¡El sueño de la memoria segura se apaga! La primera gran falla de Rust en el Kernel de Linux." /></a>
+<a href="https://www.youtube.com/shorts/2-OhDiVDlKc" target="_blank"><img width="31%" src="https://img.youtube.com/vi/2-OhDiVDlKc/mqdefault.jpg" alt="¡El truco de Rust para convertir Strings a números con .parse() revelado!" /></a> <a href="https://www.youtube.com/shorts/Thbkw3aNCS0" target="_blank"><img width="31%" src="https://img.youtube.com/vi/Thbkw3aNCS0/mqdefault.jpg" alt="Rust: ¡Tu código ahora escucha al usuario! 🦀" /></a> <a href="https://www.youtube.com/shorts/brqXuol9Px4" target="_blank"><img width="31%" src="https://img.youtube.com/vi/brqXuol9Px4/mqdefault.jpg" alt="¡El DÍA que un código en Rust se estrelló! 💥 La verdad sobre punteros y condiciones de carrera." /></a>
 
 ## Connect
 
