@@ -5,8 +5,17 @@ const API_KEY = process.env.YOUTUBE_API_KEY;
 const CHANNEL_ID = process.env.YOUTUBE_CHANNEL_ID;
 const MAX_VIDEOS = process.env.MAX_VIDEOS || 3;
 
+// Función auxiliar para convertir el formato raro de YouTube (PT1M15S) a segundos
+function parseISO8601Duration(duration) {
+  const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+  const hours = parseInt(match[1] || 0);
+  const minutes = parseInt(match[2] || 0);
+  const seconds = parseInt(match[3] || 0);
+  return hours * 3600 + minutes * 60 + seconds;
+}
+
 async function getVideos() {
-  // 1. Buscamos los videos como ya lo hacíamos
+  // 1. Buscamos los videos recientes del canal
   const searchUrl = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${CHANNEL_ID}&part=snippet,id&order=date&maxResults=25&type=video`;
   
   const searchRes = await fetch(searchUrl);
@@ -14,33 +23,27 @@ async function getVideos() {
   
   if (!searchData.items || searchData.items.length === 0) return '';
 
-  // Sacamos los IDs de los videos para pedir su duración
+  // Sacamos los IDs para consultar la duración de cada uno
   const videoIds = searchData.items.map(v => v.id.videoId).join(',');
 
-  // 2. Pedimos los detalles (duración) de esos videos específicos
-  const detailsUrl = `https://www.googleapis.com/youtube/v3/videos?key=${API_KEY}&id=${videoIds}&part=contentDetails`;
+  // 2. Pedimos los detalles (contentDetails trae la duración y snippet trae el título)
+  const detailsUrl = `https://www.googleapis.com/youtube/v3/videos?key=${API_KEY}&id=${videoIds}&part=snippet,contentDetails`;
   const detailsRes = await fetch(detailsUrl);
   const detailsData = await detailsRes.json();
 
-  // 3. Filtramos: Si dura menos de un minuto (estilo Shorts), lo quitamos
-  // La duración viene en formato ISO 8601 (ej: PT1M30S)
-  const longVideos = detailsData.items.filter(video => {
-    const duration = video.contentDetails.duration;
-    // Si no tiene "M" (minutos) o "H" (horas), es que dura puras "S" (segundos)
-    // Los Shorts suelen ser < 60s, así que si no tiene "M" ni "H", lo tiramos.
-    return duration.includes('M') || duration.includes('H');
+  // 3. FILTRO: Solo nos quedamos con los que duren 60 segundos o menos (SHORTS)
+  const shortVideos = detailsData.items.filter(video => {
+    const totalSeconds = parseISO8601Duration(video.contentDetails.duration);
+    return totalSeconds <= 60; 
   });
 
-  // Solo nos quedamos con los que tú quieras (MAX_VIDEOS)
-  const finalVideos = longVideos.slice(0, MAX_VIDEOS);
-
-  return finalVideos.map(video => {
+  // 4. Mapeamos los resultados para el README
+  // Nota: Usamos la URL de /shorts/ para que el click sea directo al formato vertical
+  return shortVideos.slice(0, MAX_VIDEOS).map(video => {
     const id = video.id;
-    // Buscamos el snippet original para el título
-    const originalSnippet = searchData.items.find(v => v.id.videoId === id).snippet;
-    const title = originalSnippet.title.replace(/'/g, "\\'");
+    const title = video.snippet.title.replace(/"/g, '&quot;');
     
-    return `<a href="https://youtu.be/${id}" target="_blank"><img width="31%" src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="${title}" /></a>`;
+    return `<a href="https://www.youtube.com/shorts/${id}" target="_blank"><img width="31%" src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="${title}" /></a>`;
   }).join(' ');
 }
 
