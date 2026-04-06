@@ -45,9 +45,9 @@ async function getVideos() {
     const videoUrl = `https://youtu.be/${id}`;
     
     return `
-<div style="display: inline-block; width: 31%; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
+<div style="display: inline-block; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
   <a href="${videoUrl}" target="_blank">
-    <img src="${thumbUrl}" alt="${title}" style="width: 100%; border-radius: 10px;" />
+    <img src="${thumbUrl}" alt="${title}" style="border-radius: 10px;" />
     <br />
     <strong style="font-size: 12px;">${title}</strong>
   </a>
