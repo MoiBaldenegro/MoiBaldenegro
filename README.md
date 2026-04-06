@@ -29,7 +29,7 @@
 
 ## Latest videos
 
-<a href="https://youtu.be/2-OhDiVDlKc" target="_blank"><img width="31%" src="https://img.youtube.com/vi/2-OhDiVDlKc/mqdefault.jpg" alt="¡El truco de Rust para convertir Strings a números con .parse() revelado!" /></a> <a href="https://youtu.be/Thbkw3aNCS0" target="_blank"><img width="31%" src="https://img.youtube.com/vi/Thbkw3aNCS0/mqdefault.jpg" alt="Rust: ¡Tu código ahora escucha al usuario! 🦀" /></a> <a href="https://youtu.be/0oDS-zmCFrA" target="_blank"><img width="31%" src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" /></a>
+<a href="https://youtu.be/0oDS-zmCFrA" target="_blank"><img width="31%" src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" /></a> <a href="https://youtu.be/B6XORAt7Dfg" target="_blank"><img width="31%" src="https://img.youtube.com/vi/B6XORAt7Dfg/mqdefault.jpg" alt="RUST es vulnerable en el KERNEL DE LINUX  🦀❌ #Rust #Linux #Kernel" /></a> <a href="https://youtu.be/S4CWw38PAOk" target="_blank"><img width="31%" src="https://img.youtube.com/vi/S4CWw38PAOk/mqdefault.jpg" alt="Como REPETIR CODIGO en RUST | REPETICION - BUCLES C009 - RUST DESDE CERO 🦀" /></a>
 
 ## Connect
 
