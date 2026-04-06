@@ -42,7 +42,7 @@ async function getVideos() {
     // Escapamos comillas del título para que no rompan el HTML del alt
     const title = video.snippet.title.replace(/"/g, '&quot;');
     
-    return `<a href="https://youtu.be/${id}" target="_blank"><img width="31%" src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="${title}" />Ver en YouTube</a>`;
+    return `<a href="https://youtu.be/${id}" style="display: flex; flex-direction: column; ;" target="_blank"><img width="31%" style="border-radius: 8px;" src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="${title}" /><span style="font-size: 12px; margin-top: 10px; background-color: #007bff; color: white; padding: 5px 10px; border-radius: 5px;">Ver en YouTube</span></a>`;
   }).join(' ');
 }
 
