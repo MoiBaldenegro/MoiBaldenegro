@@ -29,7 +29,7 @@
 
 ## Latest videos
 
-aca los videos de youtube
+<a href="https://youtu.be/2-OhDiVDlKc" target="_blank"><img width="31%" src="https://img.youtube.com/vi/2-OhDiVDlKc/mqdefault.jpg" alt="¡El truco de Rust para convertir Strings a números con .parse() revelado!" /></a> <a href="https://youtu.be/Thbkw3aNCS0" target="_blank"><img width="31%" src="https://img.youtube.com/vi/Thbkw3aNCS0/mqdefault.jpg" alt="Rust: ¡Tu código ahora escucha al usuario! 🦀" /></a> <a href="https://youtu.be/0oDS-zmCFrA" target="_blank"><img width="31%" src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" /></a>
 
 ## Connect
 
