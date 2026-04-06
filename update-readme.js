@@ -28,10 +28,19 @@ async function main() {
     const videosHtml = await getVideos();
     const readme = await fs.readFile('README.md', 'utf-8');
 
-    // REEMPLAZO QUIRÚRGICO:
-    // Busca lo que hay entre las etiquetas y lo cambia por los videos nuevos
+    // 1. Definimos qué texto buscar (las marcas que pusiste en el README)
+    // Usamos las etiquetas como "anclas" para que el script sepa dónde entrar y salir
+    const regex = /[\s\S]*/;
+
+    // 2. Verificamos si las marcas existen para no hacer un desmadre
+    if (!readme.includes('')) {
+      console.error('❌ No encontré las marcas en tu README');
+      return;
+    }
+
+    // 3. Reemplazamos SOLO lo que está entre las marcas
     const newReadme = readme.replace(
-      /[\s\S]*/,
+      regex,
       `\n${videosHtml}\n`
     );
 
