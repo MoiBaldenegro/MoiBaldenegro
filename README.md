@@ -30,23 +30,23 @@
 ## Latest videos
 
 
-<div style="display: inline-block; width: 31%; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
+<div style="display: inline-block; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
   <a href="https://youtu.be/2-OhDiVDlKc" target="_blank">
-    <img src="https://img.youtube.com/vi/2-OhDiVDlKc/mqdefault.jpg" alt="¡El truco de Rust para convertir Strings a números con .parse() revelado!" style="width: 100%; border-radius: 10px;" />
+    <img src="https://img.youtube.com/vi/2-OhDiVDlKc/mqdefault.jpg" alt="¡El truco de Rust para convertir Strings a números con .parse() revelado!" style="border-radius: 10px;" />
     <br />
     <strong style="font-size: 12px;">¡El truco de Rust para convertir Strings a números con .parse() revelado!</strong>
   </a>
 </div>
-<div style="display: inline-block; width: 31%; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
+<div style="display: inline-block; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
   <a href="https://youtu.be/Thbkw3aNCS0" target="_blank">
-    <img src="https://img.youtube.com/vi/Thbkw3aNCS0/mqdefault.jpg" alt="Rust: ¡Tu código ahora escucha al usuario! 🦀" style="width: 100%; border-radius: 10px;" />
+    <img src="https://img.youtube.com/vi/Thbkw3aNCS0/mqdefault.jpg" alt="Rust: ¡Tu código ahora escucha al usuario! 🦀" style="border-radius: 10px;" />
     <br />
     <strong style="font-size: 12px;">Rust: ¡Tu código ahora escucha al usuario! 🦀</strong>
   </a>
 </div>
-<div style="display: inline-block; width: 31%; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
+<div style="display: inline-block; vertical-align: top; margin-right: 1%; margin-bottom: 20px;">
   <a href="https://youtu.be/0oDS-zmCFrA" target="_blank">
-    <img src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" style="width: 100%; border-radius: 10px;" />
+    <img src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" style="border-radius: 10px;" />
     <br />
     <strong style="font-size: 12px;">Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010</strong>
   </a>
