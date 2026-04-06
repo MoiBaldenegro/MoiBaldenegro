@@ -33,7 +33,7 @@ async function main() {
     const regex = /[\s\S]*/;
 
     // 2. Verificamos si las marcas existen para no hacer un desmadre
-    if (!readme.includes('')) {
+    if (!readme.includes('## Latest videos')) {
       console.error('❌ No encontré las marcas en tu README');
       return;
     }
