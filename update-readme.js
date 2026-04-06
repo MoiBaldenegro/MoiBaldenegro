@@ -30,19 +30,14 @@ async function main() {
 
     // 1. Definimos qué texto buscar (las marcas que pusiste en el README)
     // Usamos las etiquetas como "anclas" para que el script sepa dónde entrar y salir
-    const regex = /[\s\S]*/;
+   const regex = /## Latest videos[\s\S]*## Connect/;
 
-    // 2. Verificamos si las marcas existen para no hacer un desmadre
-    if (!readme.includes('## Latest videos')) {
-      console.error('❌ No encontré las marcas en tu README');
-      return;
-    }
+const newReadme = readme.replace(
+  regex,
+  `## Latest videos\n\n${videosHtml}\n\n## Connect`
+);
 
-    // 3. Reemplazamos SOLO lo que está entre las marcas
-    const newReadme = readme.replace(
-      regex,
-      `\n${videosHtml}\n`
-    );
+    ;
 
     await fs.writeFile('README.md', newReadme);
     console.log('✅ README actualizado: Los videos ya están en su lugar');
