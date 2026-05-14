@@ -13,8 +13,8 @@
 
 ## Current Projects
 - 🐶 **[Cinnamon](https://cinnamon.ai)** - A high-performance runtime for JavaScript and TypeScript built on Rust.
-- 📊 **[Testimo](http://hackathoncubepath-client-oiqrmt-ccd53b-108-165-47-237.traefik.me/)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
-- 🔀 **[Mouter](https://mouterrouter.ai)** - A lightweight alternative for route management in React.
+- 📊 **[Testimo](https://github.com/MoiBaldenegro/cubepath-cms-hackaton)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
+- 🔀 **[Mouter](https://www.npmjs.com/package/mouter-router)** - A lightweight alternative for route management in React.
 
 
 
