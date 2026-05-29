@@ -1,6 +1,6 @@
 # Hi, I'm Moi👋
 
-📍 **Jalisco ↔ Sonora** | 🦀 **Software Engineer** | 🛡️ **Secure Software Development** | 🌐 **Distributed Systems**
+📍 **Jalisco ↔ Sonora** | 🦀 **Software Engineer** | 🛡️ **Secure Development** | 🌐 **Distributed Systems**
 
 ![Rust](https://img.shields.io/badge/-Rust-FA7343?style=flat-square&logo=rust&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
