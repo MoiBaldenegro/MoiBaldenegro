@@ -30,7 +30,7 @@
 
 ## Latest videos
 
-<a href="https://youtu.be/0oDS-zmCFrA" target="_blank"><img width="31%" src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" /></a> <a href="https://youtu.be/B6XORAt7Dfg" target="_blank"><img width="31%" src="https://img.youtube.com/vi/B6XORAt7Dfg/mqdefault.jpg" alt="RUST es vulnerable en el KERNEL DE LINUX  🦀❌ #Rust #Linux #Kernel" /></a>
+<a href="https://youtu.be/0oDS-zmCFrA" target="_blank"><img width="31%" src="https://img.youtube.com/vi/0oDS-zmCFrA/mqdefault.jpg" alt="Cómo pedir datos al USUARIO en RUST 🦀 | Entrada de Datos (stdin) | Curso de Rust desde Cero #010" /></a> <a href="https://youtu.be/B6XORAt7Dfg" target="_blank"><img width="31%" src="https://img.youtube.com/vi/B6XORAt7Dfg/mqdefault.jpg" alt="RUST es vulnerable en el KERNEL DE LINUX  🦀❌ #Rust #Linux #Kernel" /></a> <a href="https://youtu.be/S4CWw38PAOk" target="_blank"><img width="31%" src="https://img.youtube.com/vi/S4CWw38PAOk/mqdefault.jpg" alt="Como REPETIR CODIGO en RUST | REPETICION - BUCLES C009 - RUST DESDE CERO 🦀" /></a>
 
 ## Connect
 
