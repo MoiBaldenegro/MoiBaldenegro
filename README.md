@@ -13,6 +13,7 @@
 
 ## Current Projects
 - 🐶 **[Cinnamon](https://cinnamon.ai)** - A high-performance runtime for JavaScript and TypeScript built on Rust.
+- 💰 **[MFinance](https://github.com/MoiBaldenegro/mfinance)** - A personal finance application built with Tauri v2 + React 19.
 - 📊 **[Testimo](https://github.com/MoiBaldenegro/cubepath-cms-hackaton)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
 - 🔀 **[Mouter](https://www.npmjs.com/package/mouter-router)** - A lightweight alternative for route management in React.
 
