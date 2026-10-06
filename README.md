@@ -12,7 +12,7 @@
 > In constant evolution, building the bridge between hardware and software with Rust, connecting the metal to the cloud, exploring modern low-level for web scalability, always prioritizing security and privacy standards.
 
 ## Current Projects
-- 🐾 **[raul](https://github.com/MoiBaldenegro/raul-framework)** - A Laravel-inspired, type-safe MVC framework with clean architecture and pluggable server adapters (Node.js, Bun, deno, and beyond).
+- 🐾 **[raul](https://github.com/MoiBaldenegro/raul-framework)** - A Laravel-inspired, type-safe MVC framework, clean architecture and pluggable server adapters (Node.js, Bun, deno, and beyond).
 - 🐶 **[Cinnamon](https://cinnamon.ai)** - A high-performance runtime for JavaScript and TypeScript built on Rust.
 - 💰 **[MFinance](https://github.com/MoiBaldenegro/mfinance)** - A personal finance application built with Tauri v2 + React 19.
 - 📊 **[Testimo](https://github.com/MoiBaldenegro/cubepath-cms-hackaton)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
