@@ -13,8 +13,8 @@
 
 ## Current Projects
 - 🐾 **[raul](https://github.com/MoiBaldenegro/raul-framework)** - A type-safe, Laravel-like MVC framework with pluggable adapters for Node.js, Bun, Deno and beyond.
+- 💰 **[MFinance](https://moibaldenegro.github.io/mfinance/)** - A personal finance application built with Tauri v2 + React 19.
 - 🐶 **[Cinnamon](https://cinnamon.ai)** - A high-performance runtime for JavaScript and TypeScript built on Rust.
-- 💰 **[MFinance](https://github.com/MoiBaldenegro/mfinance)** - A personal finance application built with Tauri v2 + React 19.
 - 📊 **[Testimo](https://github.com/MoiBaldenegro/cubepath-cms-hackaton)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
 - 🔀 **[Mouter](https://www.npmjs.com/package/mouter-router)** - A lightweight alternative for route management in React.
 
