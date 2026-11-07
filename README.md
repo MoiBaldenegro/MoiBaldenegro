@@ -14,7 +14,7 @@
 ## Current Projects
 - 🐾 **[raul](https://github.com/MoiBaldenegro/raul-framework)** - A type-safe, Laravel-like MVC framework with pluggable adapters for Node.js, Bun, Deno and beyond.
 - 💰 **[MFinance](https://moibaldenegro.github.io/mfinance/)** - A personal finance application built with Tauri v2 + React 19.
-- ⚔️ **[WoW Armory](https://wow-armory-ovbq.vercel.app/)** - Full-stack WoW Armory built with React, NestJS, TypeScript, and Blizzard’s Battle.net API to deliver secure, real-time World of Warcraft character profiles.
+- ⚔️ **[WoW Armory](https://wow-armory-ovbq.vercel.app/)** - Full-stack WoW Armory built with React, NestJS, TypeScript, and Blizzard’s Battle.net, real-time World of Warcraft character profiles.
 - 🐶 **[Cinnamon](https://cinnamon.ai)** - A high-performance runtime for JavaScript and TypeScript built on Rust.
 - 📊 **[Testimo](https://github.com/MoiBaldenegro/cubepath-cms-hackaton)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
 - 🔀 **[Mouter](https://www.npmjs.com/package/mouter-router)** - A lightweight alternative for route management in React.
