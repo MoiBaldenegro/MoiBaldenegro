@@ -17,7 +17,7 @@
 - 📊 **[Testimo](https://github.com/MoiBaldenegro/cubepath-cms-hackaton)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
 - 🔀 **[Mouter](https://www.npmjs.com/package/mouter-router)** - A lightweight alternative for route management in React.
 - 🐶 **[Cinnamon](https://cinnamon.ai)** - A high-performance runtime for JavaScript and TypeScript built on Rust.
-- 🖥️ **[SO/Deck](https://moibaldenegro.github.io/lamar_sistemas_operativos/)** - A high-performance runtime for JavaScript and TypeScript built on Rust.
+- 🖥️ **[SO/Deck](https://moibaldenegro.github.io/lamar_sistemas_operativos/)** - Eight slides and six simulators that you can run live, covering processes, memory, files, security, and concurrency.
 - ⚔️ **[WoW Armory](https://wow-armory-ovbq.vercel.app/)** - Blizzard’s Battle.net OAuth Integration, real-time World of Warcraft character profiles.
 
 
