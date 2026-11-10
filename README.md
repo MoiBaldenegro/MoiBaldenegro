@@ -12,6 +12,7 @@
 > In constant evolution, building the bridge between hardware and software with Rust, connecting the metal to the cloud, exploring modern low-level for web scalability, always prioritizing security and privacy standards.
 
 ## Current Projects
+- 🎨 **[MXVI-Design](https://moibaldenegro.github.io/mxvi-design-system/)** - compact behavioral contract for AI systems generating MXNVI interfaces, graphics, or implementation code.
 - 🐾 **[raul](https://github.com/MoiBaldenegro/raul-framework)** - A type-safe, Laravel-like MVC framework with pluggable adapters for Node.js, Bun, Deno and beyond.
 - 💰 **[MFinance](https://moibaldenegro.github.io/mfinance/)** - A personal finance application built with Tauri v2 + React 19.
 - 📊 **[Testimo](https://github.com/MoiBaldenegro/cubepath-cms-hackaton)** - Testimonial management, moderation, and analytics platform, with direct web integration, framework-agnostic.
