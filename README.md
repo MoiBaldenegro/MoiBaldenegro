@@ -12,6 +12,7 @@
 > In constant evolution, building the bridge between hardware and software with Rust, connecting the metal to the cloud, exploring modern low-level for web scalability, always prioritizing security and privacy standards.
 
 ## Current Projects
+- 🗣️ **[Article-Voice](https://moibaldenegro.github.io/article-voice/)** - Detects the article on a page and reads it aloud using MOSS-TTS-Nano, directly in the browser. Framework-agnostic.
 - ⚙️ **[MXVI-Engineering](https://moibaldenegro.github.io/mxvi-engineering-system/)** - Architecture, conventions, and code structure for the MXVI ecosystem. Docs for AI agents.
 - 🎨 **[MXVI-Design](https://moibaldenegro.github.io/mxvi-design-system/)** - Compact behavioral contract for AI systems generating MXNVI interfaces, graphics, or implementation code.
 - 🐾 **[raul](https://github.com/MoiBaldenegro/raul-framework)** - A type-safe, Laravel-like MVC framework with pluggable adapters for Node.js, Bun, Deno and beyond.
